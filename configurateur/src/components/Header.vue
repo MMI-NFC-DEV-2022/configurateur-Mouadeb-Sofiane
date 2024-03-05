@@ -33,10 +33,10 @@
             <RouterLink to="/" class="text-white hover:text-gray-300">Accueil</RouterLink>
           </li>
           <li>
-            <RouterLink to="/" class="text-white hover:text-gray-300">Mes Projets</RouterLink>
+            <RouterLink to="/" class="text-white hover:text-gray-300"></RouterLink>
           </li>
           <li>
-            <RouterLink to="/" class="text-white hover:text-gray-300">Créer des maisons</RouterLink>
+            <RouterLink to="/" class="text-white hover:text-gray-300"></RouterLink>
           </li>
           
         </ul>
