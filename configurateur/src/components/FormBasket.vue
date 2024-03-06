@@ -30,14 +30,14 @@ const basket = ref<Basket>(props.data ?? {});
     <h2>Personnalisation</h2>
         <div class="flex flex-wrap justify-start">
             <FormKit type="form" v-model="basket" class="flex flex-wrap justify-start">
-                <FormKit name="semelle" label="semelle" value="#FFFFFF" type="select":options="colors" class="w-full md:w-1/2 lg:w-1/4" />
-                <FormKit name="empeigne" label="empeigne" value="#FFFFFF" type="select":options="colors" class="w-full md:w-1/2 lg:w-1/4" />
-                <FormKit name="pointe" label="pointe" value="#FFFFFF" type="select":options="colors" class="w-full md:w-1/2 lg:w-1/4" />
-                <FormKit name="lacet" label="lacet" value="#FFFFFF" type="select":options="colors" class="w-full md:w-1/2 lg:w-1/4" />
-                <FormKit name="oeillet" label="oeillet" value="#FFFFFF" type="select":options="colors" class="w-full md:w-1/2 lg:w-1/4" />
-                <FormKit name="trimestre" label="trimestre" value="#FFFFFF" type="select":options="colors" class="w-full md:w-1/2 lg:w-1/4" />
-                <FormKit name="bande" label="bande" value="#FFFFFF" type="select":options="colors" class="w-full md:w-1/2 lg:w-1/4" />
-                <FormKit name="languette" label="languette" value="#FFFFFF" type="select":options="colors" class="w-full md:w-1/2 lg:w-1/4" />
+                <FormKit name="semelle" label="semelle" value="#FFFFFF" type="radio":options="colors" class="w-full md:w-1/2 lg:w-1/4" />
+                <FormKit name="empeigne" label="empeigne" value="#FFFFFF" type="radio":options="colors" class="w-full md:w-1/2 lg:w-1/4" />
+                <FormKit name="pointe" label="pointe" value="#FFFFFF" type="radio":options="colors" class="w-full md:w-1/2 lg:w-1/4" />
+                <FormKit name="lacet" label="lacet" value="#FFFFFF" type="radio":options="colors" class="w-full md:w-1/2 lg:w-1/4" />
+                <FormKit name="oeillet" label="oeillet" value="#FFFFFF" type="radio":options="colors" class="w-full md:w-1/2 lg:w-1/4" />
+                <FormKit name="trimestre" label="trimestre" value="#FFFFFF" type="radio":options="colors" class="w-full md:w-1/2 lg:w-1/4" />
+                <FormKit name="bande" label="bande" value="#FFFFFF" type="radio":options="colors" class="w-full md:w-1/2 lg:w-1/4" />
+                <FormKit name="languette" label="languette" value="#FFFFFF" type="radio":options="colors" class="w-full md:w-1/2 lg:w-1/4" />
             </FormKit>
         </div>
   </div>
