@@ -11,6 +11,8 @@
     "type-check": "vue-tsc --build --force"
   },
   "dependencies": {
+    "@formkit/vue": "^1.5.9",
+    "@headlessui/vue": "^1.7.19",
     "vue": "^3.4.15",
     "vue-router": "^4.2.5"
   },

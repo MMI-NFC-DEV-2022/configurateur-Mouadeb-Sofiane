@@ -33,10 +33,10 @@
             <RouterLink to="/" class="text-white hover:text-gray-300">Accueil</RouterLink>
           </li>
           <li>
-            <RouterLink to="/" class="text-white hover:text-gray-300"></RouterLink>
+            <RouterLink to="/form" class="text-white hover:text-gray-300">Form</RouterLink>
           </li>
           <li>
-            <RouterLink to="/" class="text-white hover:text-gray-300"></RouterLink>
+            <RouterLink to="/formimg" class="text-white hover:text-gray-300">Form Images</RouterLink>
           </li>
           
         </ul>
