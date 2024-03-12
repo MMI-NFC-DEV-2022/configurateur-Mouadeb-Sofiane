@@ -1,6 +1,13 @@
 <script setup lang="ts">
 import VueProfil from '@/components/VueProfil.vue';
 import VueDessus from '@/components/VueDessus.vue';
+// import { supabase } from "../supabase";
+// console.log("supabase :", supabase);
+
+// import type { Basket } from "../types";
+// let { data: exemples, error } = await supabase
+//   .from('basket')
+//   .select('*')
 
 import BasketProfil from "../components/BasketProfil.vue";
 import type { Basket } from "../types";
@@ -24,13 +31,14 @@ const exemples: Basket[] = [{
   lacet: "#00FF00",
   trimestre: "#FFFFFF",
 },
+
 {
     semelle: "#000000",
     empeigne: "#FFFFFF",
     pointe: "#FFFFFF",
     oeillet: "#FFFFFF",
     bande: "#00FF00",
-    languette: "#000000",
+    languette: "#FFFFFF",
     lacet: "#00FF00",
     trimestre: "#FFFFFF",
 },

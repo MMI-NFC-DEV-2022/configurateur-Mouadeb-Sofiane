@@ -33,14 +33,7 @@
           </div>
   
           <!-- Colonne 4 -->
-          <div>
-            <h3 class="text-lg font-bold mb-4">Suivez-moi</h3>
-            <div class="flex space-x-4">
-              <a href="https://www.linkedin.com/in/sofiane-mouadeb-1b2b78257/" class="text-white hover:text-gray-400"><IconLinkedin /></a>
-              <a href="https://www.behance.net/sofianemouadeb" class="text-white hover:text-gray-400"><IconBehance /></a>
-              <a href="https://github.com/Mouadeb-Sofiane" class="text-white hover:text-gray-400"><IconGithub /></a>
-            </div>
-          </div>
+          
         </div>
       </div>
   
